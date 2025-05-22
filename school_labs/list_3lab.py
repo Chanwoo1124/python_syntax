@@ -14,16 +14,15 @@ while True:
 
     elif input_value == 3:
         index = int(input("수정할 인덱스를 입력하세요"))
-        if index == len(li)-1:
+        if 0 <= index < len(li):
             index_value = int(input("새로운 값을 입력하세요:"))
-            li.pop(index)
-            li.insert(index,index_value)
+            li[index] = index_value
             print("수정 완료.")
         else:
             print("유효하지 않은 인덱스입니다.")
     elif input_value == 4:
         index = int(input("삭제할 인덱스를 입력하세요"))
-        if index == len(li)-1:
+        if 0 <= index < len(li):
             li.pop(index)
             print("삭제 완료.")
         else:
@@ -44,6 +43,3 @@ while True:
 
 
 
-        # try:
-        #     li.index(index)
-        # except
