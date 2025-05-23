@@ -10,8 +10,6 @@ for t in text:
         word = ""
         index += 1
     else:
-        if t == " ":
-            continue
         word += t
         
     if find == word:
