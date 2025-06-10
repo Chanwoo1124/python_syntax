@@ -12,4 +12,3 @@ for _ in range(num):
 
 for v in basket:
     print(v,end=" ")
-    print(v,end=" ")
