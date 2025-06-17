@@ -17,6 +17,7 @@ def generate_profile(name,age,*interests,gender="미정",**metadata):
         if len(metadata) - count:
             print(",", end="")  
             count += 1
+            
         
         
         
