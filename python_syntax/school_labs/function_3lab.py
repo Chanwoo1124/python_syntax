@@ -1,5 +1,5 @@
 def greet_user(name):
-    result = "Hello, " +name+"!"
-    print(result)
+    return "Hello, " +name+ "!"
+    
 
-greet_user('Alice')
+print(greet_user('Alice'))

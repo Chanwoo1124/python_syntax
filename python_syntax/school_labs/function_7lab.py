@@ -1,12 +1,9 @@
 def contanins(arg_lisg,arg_target):
-    result = ""
-    for n in arg_lisg:
-        if n == arg_target:
-            result = "True"
-            break
-        else:
-            result = "False"
-    return result
+    for v in arg_lisg:
+        if v == arg_target:
+            return True
+    return False
+            
 
 print(contanins([1,2,3,4], 3))
 

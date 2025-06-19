@@ -1,12 +1,19 @@
 def max_of_three(a,b,c):
-    max = a
-    if b > max:
-        max = b
-    if c > max:
-        max = c
-    return max
-
-print(max_of_three(10, 20, 15))
+    if a > b and a > c:
+        return a
+    elif b > a and b > c :
+        return b
+    else:
+        return c 
+    
+    
+    
+    
+    
+    
+    
+    
+print(max_of_three(10, 50, 85))
 
     
     

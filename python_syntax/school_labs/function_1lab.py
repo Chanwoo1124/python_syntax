@@ -1,4 +1,4 @@
-def print_hello(msg):
-    print(msg)
+def print_hello():
+    print("Hello, World!")
 
-print_hello("Hello, ")
+print_hello()
