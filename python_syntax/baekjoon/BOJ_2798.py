@@ -14,5 +14,5 @@ for val in li:
         num = val
     
 print(num)
-print()
+
         
